@@ -1,0 +1,50 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+header{
+    height: 100px;
+    background-image: url('images/green-banner.jpg');
+    width: 100%;
+}
+
+
+.banner-text{
+    font-size: 2.4rem;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    padding-top: 30px;
+    opacity: 0;
+    animation-duration: 5s;
+    color: white;
+}
+  
+  #welcome {
+    animation-name: fadeInOut;
+  }
+  
+  #presentation {
+    animation-delay: 5s;
+    animation-name: fadeInOut;
+    position: absolute;
+    top: 0px;
+  }
+  
+
+  @keyframes fadeInOut {
+    0% {
+      opacity: 0;
+    }
+  
+    45% {
+      opacity: 1;
+    }
+  
+    100% {
+      opacity: 0%;
+    }
+  }
