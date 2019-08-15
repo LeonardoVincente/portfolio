@@ -26,14 +26,83 @@ header{
   #welcome {
     animation-name: fadeInOut;
   }
-  
-  #presentation {
-    animation-delay: 5s;
-    animation-name: fadeInOut;
+
+  footer{
     position: absolute;
-    top: 0px;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    background-color: lightgray;
+    text-align: center;
+    line-height: 2.2;
+    font-size: 1.2em;
   }
   
+  #mainContainer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #mainContent{
+    flex: auto;
+    width: 100%;
+  }
+  
+  #experience-section{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .header-job{
+    align-self: center;
+    width: 80%;
+  }
+
+  .job-card{
+    width: 80%;
+    height: 200px;
+    border: solid 1px black;
+    align-self: center;
+    margin: 15px 0;
+  }
+
+  .company-info{
+    display: flex;
+    flex-direction: row;
+    height: 75px;
+    padding: 10px;
+  }
+
+
+  .company-logo{
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    background-image: url("images/thermofisher-logo.png");
+    background-size: 100%;
+  }
+
+
+  .companyName{
+    display: flex;
+    align-items: center;
+    height: 65px;
+    padding-left: 15px;
+  }
+  
+  @media all and (min-width: 768px) {
+    .job-card{
+      width: 35%;
+    }
+
+    .header-job{
+      align-self: center;
+      width: 35%;
+    }
+  
+  }
 
   @keyframes fadeInOut {
     0% {
