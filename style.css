@@ -1,8 +1,10 @@
 html, body{
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
 }
 
 header{
@@ -10,7 +12,6 @@ header{
     background-image: url('images/green-banner.jpg');
     width: 100%;
 }
-
 
 .banner-text{
     font-size: 2.4rem;
@@ -23,107 +24,136 @@ header{
     color: white;
 }
   
-  #welcome {
-    animation-name: fadeInOut;
-  }
+#welcome {
+  animation-name: fadeInOut;
+}
 
-  footer{
-    bottom: 0;
-    width: 100%;
-    height: 40px;
-    background-color: lightgray;
-    text-align: center;
-    line-height: 2.2;
-    font-size: 1.2em;
-  }
-  
-  #mainContainer{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-  }
+footer{
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  background-color: lightgray;
+  text-align: center;
+  line-height: 2.2;
+  font-size: 1.2em;
+}
 
-  #mainContent{
-    flex: auto;
-    width: 100%;
-    overflow-y: scroll;
-  }
-  
-  #experience-section{
-    display: flex;
-    flex-direction: column;
+#mainContainer{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#mainContent{
+  flex: auto;
+  width: 100%;
+  overflow-y: scroll;
+}
+
+#experience-section, .card-container{
+  display: flex;
+  flex-direction: column;
+}
+
+.header-job{
+  align-self: center;
+  width: 80%;
+}
+
+.job-card{
+  width: 80%;
+  height: 250px;
+  border: solid 1px lightgray;
+  box-shadow: 1px 1px 1px lightgray;
+  align-self: center;
+  margin: 15px 0;
+  padding: 15px;
+}
+
+.jobDescription{
+  text-align: justify;
+  padding: 10px;
+}
+
+.job-summary{
+  display: flex;
+  flex-direction: row;
+}
+
+.company-info{
+  display: flex;
+  flex-direction: column;
+  height: 75px;
+  margin-left: 10px;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+
+.company-logo{
+  width: 65px;
+  height: 65px;
+  min-width: 65px;
+  border-radius: 65px;
+  background-size: 100%;
+  border: solid gray 1px;
+}
+
+.thermofisher-logo{
+  background-image: url("images/thermofisher-logo.png");
+}
+
+.samsung-logo{
+  background-image: url("images/samsung-logo-white.png");
+  background-color: #0c4da2;
+  background-repeat: no-repeat;
+  background-position: center; 
+}
+
+.argus-logo{
+  background-image: url("images/argus-logo.jpg");
+}
+
+@media all and (min-width: 768px) {
+  .job-card{
+    width: 35%;
   }
 
   .header-job{
     align-self: center;
-    width: 80%;
+    width: 35%;
+  }
+  #experience-section{
+    padding: 30px;
+  }
+  .card-container{
+    flex-direction: row;
+    justify-content: space-between;
+ 
   }
 
   .job-card{
-    width: 80%;
-    height: 200px;
-    border: solid 1px lightgray;
-    box-shadow: 1px 1px 1px lightgray;
-    align-self: center;
-    margin: 15px 0;
-    padding: 15px;
+    width: 30%;
   }
 
-  .jobDescription{
-    text-align: justify;
+  .header-job{
+    align-self: flex-start;
+
   }
 
-  .titleContainer{
-    margin-bottom: 10px;
+}
+
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
   }
 
-  .company-info{
-    display: flex;
-    flex-direction: row;
-    height: 75px;
-    padding: 10px;
+  45% {
+    opacity: 1;
   }
 
-
-  .company-logo{
-    width: 60px;
-    height: 60px;
-    border-radius: 50px;
-    background-image: url("images/thermofisher-logo.png");
-    background-size: 100%;
+  100% {
+    opacity: 0%;
   }
-
-
-  .companyName{
-    display: flex;
-    align-items: center;
-    height: 65px;
-    padding-left: 15px;
-  }
-  
-  @media all and (min-width: 768px) {
-    .job-card{
-      width: 35%;
-    }
-
-    .header-job{
-      align-self: center;
-      width: 35%;
-    }
-  
-  }
-
-  @keyframes fadeInOut {
-    0% {
-      opacity: 0;
-    }
-  
-    45% {
-      opacity: 1;
-    }
-  
-    100% {
-      opacity: 0%;
-    }
-  }
+}
