@@ -1,0 +1,23 @@
+
+.icon-cloud { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe800;&nbsp;'); }
+.icon-mobile { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe801;&nbsp;'); }
+.icon-up-open { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe802;&nbsp;'); }
+.icon-right-open { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe803;&nbsp;'); }
+.icon-left-open { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe804;&nbsp;'); }
+.icon-down-open { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe805;&nbsp;'); }
+.icon-chart-bar { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe806;&nbsp;'); }
+.icon-chart-bar-1 { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe807;&nbsp;'); }
+.icon-gmail { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe808;&nbsp;'); }
+.icon-phone { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe809;&nbsp;'); }
+.icon-github-circled-alt2 { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf056;&nbsp;'); }
+.icon-github-circled { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf09b;&nbsp;'); }
+.icon-youtube-play { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf16a;&nbsp;'); }
+.icon-wifi { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf1eb;&nbsp;'); }
+.icon-safari { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf267;&nbsp;'); }
+.icon-chrome { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf268;&nbsp;'); }
+.icon-firefox { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf269;&nbsp;'); }
+.icon-internet-explorer { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf26b;&nbsp;'); }
+.icon-television { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf26c;&nbsp;'); }
+.icon-facebook-squared { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf308;&nbsp;'); }
+.icon-linkedin-squared { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf30c;&nbsp;'); }
+.icon-skype { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf339;&nbsp;'); }
