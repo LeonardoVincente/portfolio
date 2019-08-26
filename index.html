@@ -5,12 +5,14 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles\fontello\css\fontello.css">
     <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./scripts/main.js"></script>
 </head>
 
 <body>
     <div id="intro">
         <div class="rowIcons">
-            <!-- <div class="icon "><img src="./images/icons/baseline-cloud-24px.svg" alt="" srcset=""></div> -->
             <div><i class="icon-fontello icon-intro">&#xe800;</i></div>
             <div><i class="icon-fontello icon-intro icon-mobile"></i></div>
             <div><i class="icon-fontello icon-intro icon-wifi"></i></div>
@@ -18,14 +20,18 @@
             <div><i class="icon-fontello icon-intro icon-television"></i></div>
         </div>
 
-        <div id="introduction" class="banner-text">My name is <b>Leonardo Hernandez Vincente</b> I'm a Software Engineer that loves web technologies.</div>
+        <div id="introduction">
+            <div class="banner-text">
+                    My name is <b>Leonardo Hernandez Vincente</b> I'm a Software Engineer that loves building web based products.
+            </div>
+        </div>
     </div>
     <div id="mainContainer">
         <section id="mainContent">
             <div id="experience-section">
                 <h2 class="header-job">Experience</h2>
                 <div class="card-container">
-                    <div class="job-card">
+                    <div class="job-card" data-aos="fade-right">
                         <div class="job-summary">
                             <div class="company-logo thermofisher-logo"></div>
                             <div class="company-info">
@@ -36,7 +42,7 @@
                         <div class="jobDescription">Working with Angular/Typescript for the Front End and Restful
                             backend microservices with Java. </div>
                     </div>
-                    <div class="job-card">
+                    <div class="job-card" data-aos="fade-right">
                         <div class="job-summary">
                             <div class="company-logo samsung-logo"></div>
                             <div class="company-info">
@@ -47,7 +53,7 @@
                         <div class="jobDescription">Worked as a Web Developer using AngularJS or Vanilla Javascript.
                             Developed for Android applications using Java.</div>
                     </div>
-                    <div class="job-card">
+                    <div class="job-card" data-aos="fade-right">
                         <div class="job-summary">
                             <div class="company-logo argus-logo"></div>
                             <div class="company-info">
