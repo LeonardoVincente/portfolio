@@ -262,3 +262,32 @@ footer{
 #contact > div{
   margin: 10px;
 }
+
+#contact .icon-fontello, #contact .icon-fontello:visited{
+  color: #e4ebea;
+  text-decoration:  none;
+  /* background-color: #26a69a; */
+}
+
+
+#contact .icon-linkedin-squared:hover{
+  color: #0077B5;
+}
+
+#contact .icon-skype:hover{
+  color: #00AFF0
+}
+
+
+#contact .icon-phone:hover{
+  color: #4AC959
+}
+
+#contact .icon-gmail:hover{
+  color: #D44638;
+}
+
+
+#contact .icon-github-circled:hover{
+  color: #6e5494;
+}
