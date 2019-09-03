@@ -1,4 +1,4 @@
-html, body{
+html, body {
   margin: 0;
   padding: 0;
   width: 100%;
@@ -8,15 +8,15 @@ html, body{
   scroll-behavior: smooth;
 }
 
-.banner-text{
-    font-size: 2.4rem;
-    width: 80%;
-    text-align: center;
-    color: white;
-    margin: 0 auto;
+.banner-text {
+  font-size: 2.4rem;
+  width: 80%;
+  text-align: center;
+  color: white;
+  margin: 0 auto;
 }
-  
-#intro{
+
+#intro {
   width: 100%;
   height: 100%;
   background-color: #26a69a;
@@ -26,13 +26,13 @@ html, body{
   flex-direction: column;
 }
 
-#introduction{
+#introduction {
   width: 100%;
   height: 100px;
   align-content: center;
 }
 
-.rowIcons{
+.rowIcons {
   display: flex;
   width: 50%;
   align-self: center;
@@ -45,21 +45,20 @@ html, body{
   padding: 10px;
 }
 
-.rowIcons > div{
+.rowIcons>div {
   height: 100px;
-  
 }
 
-.icon-color{
+.icon-color {
   background-color: white;
 }
 
-.icon-cloud{
+.icon-cloud {
   -webkit-mask: url(./images/icons/baseline-cloud-24px.svg) no-repeat center;
   mask: url(./images/icons/baseline-cloud-24px.svg) no-repeat center;
 }
 
-footer{
+footer {
   bottom: 0;
   width: 100%;
   height: 80px;
@@ -69,29 +68,29 @@ footer{
   font-size: 1.2em;
 }
 
-#mainContainer{
+#mainContainer {
   width: 100%;
   height: 100%;
   display: flex;
   flex-direction: column;
 }
 
-#mainContent{
+#mainContent {
   flex: auto;
   width: 100%;
 }
 
-#experience-section, .card-container{
+#experience-section, .card-container {
   display: flex;
   flex-direction: column;
 }
 
-.header-job{
+.header-job {
   align-self: center;
   width: 80%;
 }
 
-.job-card{
+.job-card {
   width: 80%;
   height: 180px;
   border: solid 1px lightgray;
@@ -101,17 +100,17 @@ footer{
   padding: 15px;
 }
 
-.jobDescription{
+.jobDescription {
   text-align: justify;
   padding: 10px;
 }
 
-.job-summary{
+.job-summary {
   display: flex;
   flex-direction: row;
 }
 
-.company-info{
+.company-info {
   display: flex;
   flex-direction: column;
   height: 75px;
@@ -120,8 +119,7 @@ footer{
   margin-bottom: 10px;
 }
 
-
-.company-logo{
+.company-logo {
   width: 65px;
   height: 65px;
   min-width: 65px;
@@ -130,105 +128,130 @@ footer{
   border: solid gray 1px;
 }
 
-.thermofisher-logo{
+.thermofisher-logo {
   background-image: url("../images/thermofisher-logo.png");
 }
 
-.samsung-logo{
+.samsung-logo {
   background-image: url("../images/samsung-logo-white.png");
   background-color: #0c4da2;
   background-repeat: no-repeat;
-  background-position: center; 
+  background-position: center;
 }
 
-.argus-logo{
+.argus-logo {
   background-image: url("../images/argus-logo.jpg");
 }
 
+.uabc-logo {
+  background-image: url("../images/uabc-logo.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #e6e8eb;
+}
+
+.algorithims-logo {
+  background-image: url("../images/code.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none;
+  /* background-color: #e6e8eb; */
+}
+
+
+.coder-logo {
+  background-image: url("../images/coder.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #34b65b;
+  background-size: 80%;
+}
+
+.card-subtitle {
+  font-size: 1.2em;
+  font-weight: bold;
+  text-align: center;
+  border-bottom: lightgrey solid 1px;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+#other-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 @media all and (min-width: 768px) {
-  .job-card{
+  .job-card {
     width: 35%;
   }
-
-  .header-job{
+  .header-job {
     align-self: center;
     width: 35%;
   }
-  #experience-section{
+  .items-row {
     padding: 30px;
   }
-  .card-container{
+  .card-container {
     flex-direction: row;
     justify-content: space-between;
- 
   }
-
-  .job-card{
+  .job-card {
     width: 30%;
   }
-
-  .header-job{
+  .header-job {
     align-self: flex-start;
-
   }
-
 }
 
 @keyframes fadeInOut {
   0% {
     opacity: 0;
   }
-
   45% {
     opacity: 1;
   }
-
   100% {
     opacity: 0%;
   }
 }
 
-@keyframes fadeIn{
-  0%{
+@keyframes fadeIn {
+  0% {
     opacity: 0;
   }
-
-  100%{
+  100% {
     opacity: 1;
   }
 }
 
-@keyframes fadeOut{
-  0%{
+@keyframes fadeOut {
+  0% {
     opacity: 1;
     display: block;
     height: 100%;
   }
-
-  50%{
+  50% {
     opacity: 1;
   }
-
-  100%{
+  100% {
     opacity: 0;
     height: 100%;
   }
 }
 
-@keyframes introIcon{
-  0%{
+@keyframes introIcon {
+  0% {
     color: aqua;
     left: 3000%;
   }
-
-  100%{
+  100% {
     left: 0%;
   }
 }
 
-     
-.icon-fontello
-{
+.icon-fontello {
   font-family: "fontello";
   font-style: normal;
   font-weight: normal;
@@ -241,7 +264,7 @@ footer{
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-intro{
+.icon-intro {
   width: 1em;
   margin-right: .2em;
   font-size: 32px;
@@ -251,7 +274,7 @@ footer{
   position: relative;
 }
 
-#contact{
+#contact {
   display: flex;
   flex-direction: row;
   font-size: 32px;
@@ -259,35 +282,32 @@ footer{
   justify-content: center
 }
 
-#contact > div{
+#contact>div {
   margin: 10px;
 }
 
-#contact .icon-fontello, #contact .icon-fontello:visited{
+#contact .icon-fontello, #contact .icon-fontello:visited {
   color: #e4ebea;
-  text-decoration:  none;
+  text-decoration: none;
   /* background-color: #26a69a; */
 }
 
-
-#contact .icon-linkedin-squared:hover{
+#contact .icon-linkedin-squared:hover {
   color: #0077B5;
 }
 
-#contact .icon-skype:hover{
+#contact .icon-skype:hover {
   color: #00AFF0
 }
 
-
-#contact .icon-phone:hover{
+#contact .icon-phone:hover {
   color: #4AC959
 }
 
-#contact .icon-gmail:hover{
+#contact .icon-gmail:hover {
   color: #D44638;
 }
 
-
-#contact .icon-github-circled:hover{
+#contact .icon-github-circled:hover {
   color: #6e5494;
 }
