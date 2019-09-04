@@ -178,8 +178,16 @@ footer {
 
 #other-container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
+}
+
+#achivement-list{
+  height: 150px;
+}
+
+#other-container .jobDescription{
+  padding-top: 0;
 }
 
 @media all and (min-width: 768px) {
@@ -202,6 +210,10 @@ footer {
   }
   .header-job {
     align-self: flex-start;
+  }
+
+  #other-container{
+    flex-direction: row;
   }
 }
 
